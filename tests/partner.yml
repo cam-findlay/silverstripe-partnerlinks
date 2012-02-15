@@ -1,0 +1,15 @@
+Partner:
+	Partner1:
+		Title:ABC Company Ltd
+		Content: We are some sort of company.
+		Link: http://abc.efg
+		Type: Partner
+		Published: true
+		InFooter: true
+	Partner2:
+		Title: ACME Co
+		Content: Building the best traps for roadrunner
+		Link: http://acme.com
+		Type: Distributor
+		Published: true
+		InFooter: false
