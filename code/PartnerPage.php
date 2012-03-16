@@ -28,7 +28,7 @@ class PartnerPage extends Page{
 	 * Add a custom icon for easier recognition.
 	 * @TODO find a partner shake hands icons
 	 */
-	//public static $icon = '../images/icons/supporter';
+	//public static $icon = '../images/icons/partner';
     
     /**
 	 * Sets up additional fields for the supporter page
@@ -63,7 +63,7 @@ class PartnerPage extends Page{
      * return the published partners
      */
     public function getPublishedPartners(){
-    	return $this->Supporters('Published = 1');
+    	return $this->Partners('Published = 1');
     }
 
 }
